@@ -1,0 +1,29 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 171, 61);
+    padding: 100px;
+}
+
+.display {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 25px;
+    height: 1em;
+    padding: 5px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.functions {
+    display: flex;
+    margin: 20px;
+}
+
+button {
+    margin: 1px;
+}
